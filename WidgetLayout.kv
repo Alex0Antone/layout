@@ -2,28 +2,46 @@ LayoutAssignment
 
 <LayoutAssignment>:
     orientation: "vertical"
+    spacing: "4dp"
     Label:
         text: "Layout Assignment"
+        color: (1, 1, 1)
 
         size_hint: 1, .2
 
     BoxLayout:
         orientation: "horizontal"
+        spacing: "4dp"
         BoxLayout:
             orientation: "horizontal"
+
             Button:
                 text: "A"
+                background_color: (1, 0, 1)
+                spacing: "4dp"
             Button:
                 text: 'A'
+                background_color: (1, 0, 1)
+                spacing: "4dp"
         BoxLayout:
+
             orientation: "vertical"
             Button:
                 text: "A"
+                background_color: (.5, 0, 0)
+                spacing: "4dp"
             Button:
                 text: "A"
+                background_color: (.5, 0, 0)
+                spacing: "4dp"
             Button:
                 text: "A"
-        GridLayout:
+                background_color: (.5, 0, 0)
+                spacing: "4dp"
+        GridLayoutExample:
+            size_hint: 1, 1
+            spacing: "4dp"
+
 
 
 
